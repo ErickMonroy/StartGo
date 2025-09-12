@@ -9,6 +9,8 @@ $usuario = $_SESSION["usuario"];
 // CONEXIÓN A LA BASE DE DATOS
 require_once 'conexion.php';
 
+require_once 'verificar_rol.php';
+
 // Procesar eliminación
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["eliminar"])) {
     try {
@@ -42,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["eliminar"])) {
   <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
-  
+  <div class="wrapper">
     <?php include 'menu.php'; ?>
 
     <main class="main-content" id="mainContent">
@@ -69,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["eliminar"])) {
             </button>
           </div>
 
-          <div class="mb-3">
+          <div class="esp mb-3">
             <input type="text" id="busquedaTabla" class="form-control" placeholder="Buscar en la tabla...">
           </div>
 
@@ -344,8 +346,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["eliminar"])) {
     if (menuToggle && sidebar && mainContent) {
       menuToggle.addEventListener('click', function() {
         const isActive = sidebar.classList.toggle('active');
-        //mainContent.classList.toggle('sidebar-open', isActive);
-        //document.body.classList.toggle('no-scroll', isActive);
+        mainContent.classList.toggle('sidebar-open', isActive);
+        document.body.classList.toggle('no-scroll', isActive);
       });
 
       document.addEventListener('click', function(event) {
