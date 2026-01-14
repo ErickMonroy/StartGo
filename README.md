@@ -31,6 +31,18 @@ Está diseñado con un enfoque práctico, escalable y orientado a resolver neces
 - Generación de gráficas de reportes de clases y exámenes.
 - Modo claro/oscuro adaptable a preferencias del usuario.
 - Sistema de ayuda.
+
+## Interfaz del sistema
+<div align="center">
+
+| Login | Inicio | Empleados | Alumnos |
+|:---:|:---:|:---:|:---:|
+| <img src="https://github.com/ErickMonroy/StartGo/blob/main/Recursos%20README/Login.png?raw=true" width="100" alt="Login"><br>| <img src="https://github.com/ErickMonroy/StartGo/blob/main/Recursos%20README/Inicio.png?raw=true" width="270" alt="Menú"><br> | <img src="https://github.com/ErickMonroy/StartGo/blob/main/Recursos%20README/Empleados.png?raw=true" width="270" alt="Registro"><br> |  <img src="https://github.com/ErickMonroy/StartGo/blob/main/Recursos%20README/Alumnos.png?raw=true" width="270" alt="Clientes"><br>|
+| Agenda | Reportes de Cuenta | Reportes de Clases | Tema Oscuro |
+| <img src="https://github.com/ErickMonroy/StartGo/blob/main/Recursos%20README/Agenda.png?raw=true" width="280" alt="Login"><br>| <img src="https://github.com/ErickMonroy/StartGo/blob/main/Recursos%20README/EstadoDeCuenta.png?raw=true" width="270" alt="Menú"><br> | <img src="https://github.com/ErickMonroy/StartGo/blob/main/Recursos%20README/Gr%C3%A1ficas.png?raw=true" width="270" alt="Registro"><br> |  <img src="https://github.com/ErickMonroy/StartGo/blob/main/Recursos%20README/TemaOscuro.png?raw=true" width="270" alt="Clientes"><br>|
+</div>
+
+
 ---
 
 ## Tecnologías Utilizadas  
