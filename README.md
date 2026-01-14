@@ -20,7 +20,6 @@ El sistema reduce procesos manuales, mejora el control de horarios y permite una
 Está diseñado con un enfoque práctico, escalable y orientado a resolver necesidades reales del entorno administrativo.
 </div>
 
---- 
 
 ### Funcionalidades principales
 - Inicio de sesión y control de acceso por rol.
