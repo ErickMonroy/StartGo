@@ -1,12 +1,14 @@
+
 <div align="center">
-<h1 align="center">START & GO</h1>   
-<h3>Sistema de gestión para escuelas de manejo </h3>
+  <img src="https://github.com/ErickMonroy/StartGo/blob/main/Sistema/img/Logo_rectangular_oscuro.png?raw=truee" width="50%"alt="Logo del Proyecto">
+  
+  <h3>Sistema de gestión para escuelas de manejo </h3>
 
-<img src="https://img.shields.io/badge/Lenguaje-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="Lenguaje PHP">
-<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-<img src="https://img.shields.io/badge/Versión-1.0.0-yellow?style=for-the-badge" alt="Versión">
+  <img src="https://img.shields.io/badge/Lenguaje-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="Lenguaje PHP">
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/Versión-1.0.0-yellow?style=for-the-badge" alt="Versión">
 
-<p align="right"><br>Fecha: 12 de julio de 2025</p>
+  <p align="right"><br>Fecha: 12 de julio de 2025</p>
 </div>
 
 ### Descripción
@@ -98,13 +100,5 @@ extension=php_mbstring.dll
       </a>
       <p>Backend</p>
     </td>
-  </tr>
-  <tr>
-     <td> <p></p>
-     </td>
-     <td>
-     </td>
-     <td>
-     </td>
   </tr>
 </table>
